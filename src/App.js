@@ -83,10 +83,8 @@ class App extends Component {
 
   // This is used to show the correct information when showing the popup
   editContact = (index) => {
-    console.log('Edit contact with index: ' + index);
     this.setState({
-      show: true,
-      editIndex: index
+      show: true
     });
     this.state.contacts.forEach((contact, i) => {
       if (i === index) {
