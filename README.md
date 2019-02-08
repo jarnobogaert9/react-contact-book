@@ -1,3 +1,7 @@
+## Contact Book App made with React.js
+
+I did this small project to learn more about React.js. In my opinion this is a very useful library to create user interfaces.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
