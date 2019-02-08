@@ -23,8 +23,7 @@ class App extends Component {
       newName: '',
       newNumber: '',
       updateName: '',
-      updateNumber: '',
-      contact: {}
+      updateNumber: ''
     }
   }
 
@@ -91,7 +90,8 @@ class App extends Component {
         return (
           this.setState({
             updateName: contact.name,
-            updateNumber: contact.number
+            updateNumber: contact.number,
+            editIndex: i
           })
         )
       }
@@ -112,7 +112,8 @@ class App extends Component {
       contacts: newContacts,
       show: false,
       updateName: '',
-      updateNumber: ''
+      updateNumber: '',
+      editIndex: undefined
     })
   }
 
